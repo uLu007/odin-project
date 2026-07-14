@@ -1,1 +1,160 @@
 /*Styling for index page*/
+/*{
+    border: 1px solid red;
+}*/
+body {
+    font-family: Roboto, sans-serif;
+}
+button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+}
+.header, .footer{
+    background-color: #1f2937;
+    padding: 20px;
+    color: #f9faf8;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: #f9faf8;
+}
+.header .nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header .nav a{
+    color: #f9faf8;
+    text-decoration: none;
+    margin-left: 20px;
+}
+h1{
+   font-size: 20px;
+   text-align: center; 
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    text-align: center;
+}
+.one .left, .one .right, .two .gallery, .four .call{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.one{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    color: #f9faf8;
+    padding: 10px;
+}
+.left{
+    flex: 1;
+    padding: 20px;
+}
+.right{
+    flex: 1;
+    padding: 20px;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #1f2937;
+    text-align: center;
+}
+.two .gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.image{
+    flex: 1;
+}
+.image img{
+    width: 100%;
+    height: auto;
+    border: 1px solid #1f2937;
+    border-radius: 1px;
+}
+.image p{
+    margin: 0 10%;
+}
+
+.three{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #1f2937;
+    text-align: center;
+}
+.three .quote{
+    font-style: italic;
+    margin: 1% 10%;
+    text-align: left;
+    font-weight: 300;
+    font-size: 20px;
+}
+.three .quote p{
+    margin-left: 10%;
+}
+.three .quote-author{
+    text-align: right;
+    font-weight: bold;
+    margin: 1% 10%;
+    font-size: 24px;
+}
+.three .quote-author p{
+    margin-right: 10%;
+}
+
+.four{
+    background-color: #f9faf8;
+    margin: 2%;
+}
+.four button{
+    border: 1px solid white;
+    
+}
+.four .call{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #3882f6;
+    padding: 2%;
+    border: 1px solid black;
+    color: #f9faf8;
+    
+}
+.call-left{
+    flex: 2;
+    margin-left: 5%;
+    text-align: left;
+}
+.call-right{
+    flex: 1;
+    margin-right: 5%;
+    text-align: right;
+}
+.call-right button{
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
